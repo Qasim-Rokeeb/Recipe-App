@@ -52,7 +52,7 @@ npm run dev
 ## 🌐 Deployment
 
 This project is deployed on [Vercel](https://vercel.com/) —  
-🔗 [Live Link](https://qasimrokeeb-recipe-finder-dashboard.vercel.app/)
+🔗 [Live Link](https://qrecipe-app-beige-six.vercel.app/)
 
 ---
 
