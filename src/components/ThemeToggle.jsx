@@ -7,16 +7,17 @@ export default function ThemeToggle() {
   );
 
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+    document.documentElement.classList.toggle("dark", darkMode);
   }, [darkMode]);
 
   return (
-    <button onClick={() => setDarkMode(!darkMode)} className="p-2">
-      {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+    <button
+      onClick={() => setDarkMode(!darkMode)}
+      aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+      className="p-2 rounded-full text-gray-600 dark:text-gray-300
+                 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition"
+    >
+      {darkMode ? <Sun size={22} /> : <Moon size={22} />}
     </button>
   );
 }
