@@ -52,7 +52,7 @@ npm run dev
 ## 🌐 Deployment
 
 This project is deployed on [Vercel](https://vercel.com/) —  
-🔗 [Live Link]([https://recipe-app-beige-six.vercel.app/])
+🔗 [Live Link](https://recipe-app-beige-six.vercel.app/)
 
 ---
 
